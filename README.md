@@ -1,7 +1,7 @@
 # OneForAll
 
 ## Preview:
-[https://ketankarki.github.io/eBird-Site-Clone/index.html](https://ketankarki.github.io/eBird-Site-Clone/index.html)
+[https://ketankarki.github.io/OneForAll/](https://ketankarki.github.io/OneForAll/)
 
 This is a fully responsive live inventory site for both consumers and retailers.
 Objective is to build a website from which consumers will be able to check the live inventories of the nearby stores. They can also check for the availability of specific products in their nearest stores.
