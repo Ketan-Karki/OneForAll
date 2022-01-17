@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d551f4b203.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="serviceType.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+    <title>One For All</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="active">One For All</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Type of Service</h2>
+        <button onclick="showLoginConsumer()">CONSUMER</button>
+        <div id="drp-dwn1" class="login con-login">
+            <form>
+                <div>
+                    <i class="fa fa-user"></i>
+                    <input type="text" name="Username" placeholder="Username">
+                </div>
+                <div>
+                    <i class="fa fa-key"></i>
+                    <input type="password" name="Password" placeholder="Password">
+                </div>
+                <button class="login-btn"><a href="consumer.html">Login</a></button>
+                <p>New User? Sign In Using</p>
+                <!-- sign in with google and all -->
+            </form>
+        </div>
+        <button onclick="showLoginRetailer()">RETAILER</button>
+        <div id="drp-dwn2" class="login ret-login">
+            <form>
+                <div>
+                    <i class="fa fa-user"></i>
+                    <input type="text" name="Username" placeholder="Username">
+                </div>
+                <div>
+                    <i class="fa fa-key"></i>
+                    <input type="password" name="Password" placeholder="Password">
+                </div>
+                <button class="login-btn"><a href="retailer.html">Login</a></button>
+                <p>New User? Sign In Using</p>
+                <!-- sign in with google and all -->
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

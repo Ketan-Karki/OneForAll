@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1636249591075-b32a50249ad2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Lato", sans-serif;
+}
+
+nav ul {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0;
+  color: white;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+li:first-child {
+  font-family: "Fuzzy Bubbles", cursive;
+}
+
+nav li {
+  font-size: 1.5rem;
+  padding: 0.75em 0.5em;
+  border-left: 1px solid white;
+  border-collapse: collapse;
+  outline: none;
+}
+
+nav li:hover,
+nav li:focus {
+  background: black;
+  cursor: pointer;
+}
+
+.active {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  width: 50%;
+  height: 450px;
+  background-color: none;
+  border-radius: 30px;
+  text-align: center;
+  padding: 2em;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: rgb(217, 139, 250);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+  margin-bottom: 1em;
+  font-size: 2.85rem;
+}
+
+div > button {
+  text-align: center;
+  width: 300px;
+  min-width: 200px;
+
+  margin-bottom: 1em;
+  padding: 0.5em 2em;
+  font-size: 1.5rem;
+  border-radius: 2em;
+  border: none;
+  cursor: pointer;
+  background: rgba(156, 35, 212, 0.5);
+  color: white;
+  font-weight: 500;
+}
+
+div > button:hover,
+div > button:focus {
+  background: rgb(32, 8, 46);
+  color: white;
+  transition: 500ms ease-in-out;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login input {
+  width: 200px;
+  font-size: 1.15rem;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 0.25em;
+  padding: 0.25em;
+  background: none;
+  outline: none;
+  color: rgb(204, 137, 243);
+}
+
+.login {
+  padding-bottom: 2em;
+}
+
+.con-login {
+  display: none;
+  position: relative;
+}
+
+.ret-login {
+  display: none;
+  position: relative;
+}
+
+.show {
+  display: block;
+}
+
+.login-btn {
+  text-align: center;
+  width: 100px;
+  min-width: 50px;
+  margin-bottom: 0.5em;
+  padding: 0.25em 0.75em;
+  font-size: 1.2rem;
+  border-radius: 0.9em;
+  border: none;
+  cursor: pointer;
+  background: rgba(156, 35, 212, 0.5);
+  color: white;
+  font-weight: 500;
+}
+
+.login-btn a {
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 500;
+}
+
+@media (max-width: 640px) {
+  .container {
+    width: 100%;
+    height: 1000px;
+    border-radius: 0;
+    padding: 0;
+  }
+  div > button {
+    padding: 0.5em 0em;
+    transition: 200ms ease-in-out;
+  }
+  h2 {
+    font-size: 2.5rem;
+    transition: 200ms ease-in-out;
+  }
+  body {
+      font-size: 5px;
+  }
+}
+
+@media (max-width: 270px) {
+  h2 {
+    font-size: 2rem;
+    transition: 200ms ease-in-out;
+  }
+}
